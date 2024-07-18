@@ -1,3 +1,4 @@
+/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/LIB_ORCS.dir
 /home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/start.dir
 /home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/unit_test.dir
 /home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/Experimental.dir

@@ -108,6 +108,7 @@ unit_test_EXTERNAL_OBJECTS =
 unit_test: CMakeFiles/unit_test.dir/tests/test.cpp.o
 unit_test: CMakeFiles/unit_test.dir/tests/test_main.cpp.o
 unit_test: CMakeFiles/unit_test.dir/build.make
+unit_test: libLIB_ORCS.a
 unit_test: /usr/lib/libCatch2Main.a
 unit_test: /usr/lib/libCatch2.a
 unit_test: CMakeFiles/unit_test.dir/link.txt

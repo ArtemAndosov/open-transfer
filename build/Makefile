@@ -127,6 +127,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LIB_ORCS
+
+# Build rule for target.
+LIB_ORCS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LIB_ORCS
+.PHONY : LIB_ORCS
+
+# fast build rule for target.
+LIB_ORCS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/build
+.PHONY : LIB_ORCS/fast
+
+#=============================================================================
 # Target rules for targets named start
 
 # Build rule for target.
@@ -540,6 +553,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/source_file.o: source/source_file.cpp.o
+.PHONY : source/source_file.o
+
+# target to build an object file
+source/source_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/source/source_file.cpp.o
+.PHONY : source/source_file.cpp.o
+
+source/source_file.i: source/source_file.cpp.i
+.PHONY : source/source_file.i
+
+# target to preprocess a source file
+source/source_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/source/source_file.cpp.i
+.PHONY : source/source_file.cpp.i
+
+source/source_file.s: source/source_file.cpp.s
+.PHONY : source/source_file.s
+
+# target to generate assembly for a file
+source/source_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/source/source_file.cpp.s
+.PHONY : source/source_file.cpp.s
+
 tests/test.o: tests/test.cpp.o
 .PHONY : tests/test.o
 
@@ -625,11 +662,15 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... LIB_ORCS"
 	@echo "... start"
 	@echo "... unit_test"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/source_file.o"
+	@echo "... source/source_file.i"
+	@echo "... source/source_file.s"
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"

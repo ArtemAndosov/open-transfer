@@ -92,6 +92,7 @@ start_EXTERNAL_OBJECTS =
 
 start: CMakeFiles/start.dir/main.cpp.o
 start: CMakeFiles/start.dir/build.make
+start: libLIB_ORCS.a
 start: CMakeFiles/start.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)

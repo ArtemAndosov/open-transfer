@@ -1,11 +1,8 @@
 
 #include <catch2/catch_test_macros.hpp>
+#include <source_file.hpp>
 
-int sum(int a, int b) {
-  return a + b;
-}
-
-TEST_CASE("Factorials are computed", "[factorial]") {
+TEST_CASE("sum", "[sum]") {
   REQUIRE(sum(1, 2) == 1);
   REQUIRE(sum(3, 2) == 3);
   REQUIRE(sum(1, -2) == -1);

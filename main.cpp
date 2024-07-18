@@ -13,10 +13,6 @@
 
 using namespace std;
 
-int sum(int a, int b) {
-  return a + b;
-}
-
 int main() {
   std::cout << "hello";
   return 0;

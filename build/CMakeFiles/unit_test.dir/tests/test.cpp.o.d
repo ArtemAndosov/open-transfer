@@ -191,4 +191,5 @@ CMakeFiles/unit_test.dir/tests/test.cpp.o: \
  /usr/include/catch2/internal/catch_config_counter.hpp \
  /usr/include/catch2/internal/catch_test_registry.hpp \
  /usr/include/catch2/interfaces/catch_interfaces_test_invoker.hpp \
- /usr/include/catch2/internal/catch_preprocessor_remove_parens.hpp
+ /usr/include/catch2/internal/catch_preprocessor_remove_parens.hpp \
+ /home/artem/workspace/sandbox\ (1-я\ копия)/include/source_file.hpp

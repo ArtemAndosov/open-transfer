@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = "/home/artem/workspace/sandbox (1-я копия)/build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/LIB_ORCS.dir/all
 all: CMakeFiles/start.dir/all
 all: CMakeFiles/unit_test.dir/all
 .PHONY : all
@@ -72,6 +73,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/LIB_ORCS.dir/clean
 clean: CMakeFiles/start.dir/clean
 clean: CMakeFiles/unit_test.dir/clean
 clean: CMakeFiles/Experimental.dir/clean
@@ -105,18 +107,44 @@ clean: CMakeFiles/ContinuousSubmit.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/LIB_ORCS.dir
+
+# All Build rule for target.
+CMakeFiles/LIB_ORCS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=1,2 "Built target LIB_ORCS"
+.PHONY : CMakeFiles/LIB_ORCS.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LIB_ORCS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LIB_ORCS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 0
+.PHONY : CMakeFiles/LIB_ORCS.dir/rule
+
+# Convenience name for target.
+LIB_ORCS: CMakeFiles/LIB_ORCS.dir/rule
+.PHONY : LIB_ORCS
+
+# clean rule for target.
+CMakeFiles/LIB_ORCS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIB_ORCS.dir/build.make CMakeFiles/LIB_ORCS.dir/clean
+.PHONY : CMakeFiles/LIB_ORCS.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/start.dir
 
 # All Build rule for target.
-CMakeFiles/start.dir/all:
+CMakeFiles/start.dir/all: CMakeFiles/LIB_ORCS.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=1,2 "Built target start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=3,4 "Built target start"
 .PHONY : CMakeFiles/start.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/start.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/start.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 0
 .PHONY : CMakeFiles/start.dir/rule
@@ -134,15 +162,15 @@ CMakeFiles/start.dir/clean:
 # Target rules for target CMakeFiles/unit_test.dir
 
 # All Build rule for target.
-CMakeFiles/unit_test.dir/all:
+CMakeFiles/unit_test.dir/all: CMakeFiles/LIB_ORCS.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_test.dir/build.make CMakeFiles/unit_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_test.dir/build.make CMakeFiles/unit_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=3,4,5 "Built target unit_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=5,6,7 "Built target unit_test"
 .PHONY : CMakeFiles/unit_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unit_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unit_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" 0
 .PHONY : CMakeFiles/unit_test.dir/rule

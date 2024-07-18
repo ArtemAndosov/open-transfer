@@ -4,7 +4,7 @@
 # compile CXX with /bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I"/home/artem/workspace/sandbox (1-я копия)/include"
 
-CXX_FLAGS =   -O3 -Wall -pedantic -fPIC -c -W -std=c++17
+CXX_FLAGS = -std=gnu++20   -O3 -Wall -pedantic -fPIC -c -W -std=c++17
 

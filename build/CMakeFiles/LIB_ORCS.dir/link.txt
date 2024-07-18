@@ -1,0 +1,2 @@
+/bin/ar qc libLIB_ORCS.a CMakeFiles/LIB_ORCS.dir/source/source_file.cpp.o
+/bin/ranlib libLIB_ORCS.a
