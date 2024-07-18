@@ -1,1 +1,1 @@
-/bin/c++ CMakeFiles/start.dir/main.cpp.o -o start  libLIB_ORCS.a
+/bin/c++ -g CMakeFiles/start.dir/app/main.cpp.o -o start  libLIB_ORCS.a

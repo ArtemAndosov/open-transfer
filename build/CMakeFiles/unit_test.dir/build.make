@@ -109,7 +109,6 @@ unit_test: CMakeFiles/unit_test.dir/tests/test.cpp.o
 unit_test: CMakeFiles/unit_test.dir/tests/test_main.cpp.o
 unit_test: CMakeFiles/unit_test.dir/build.make
 unit_test: libLIB_ORCS.a
-unit_test: /usr/lib/libCatch2Main.a
 unit_test: /usr/lib/libCatch2.a
 unit_test: CMakeFiles/unit_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable unit_test"

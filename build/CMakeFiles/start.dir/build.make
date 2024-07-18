@@ -69,28 +69,28 @@ include CMakeFiles/start.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/start.dir/flags.make
 
-CMakeFiles/start.dir/main.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/main.cpp.o: /home/artem/workspace/sandbox\ (1-я\ копия)/main.cpp
-CMakeFiles/start.dir/main.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/main.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/main.cpp.o -MF CMakeFiles/start.dir/main.cpp.o.d -o CMakeFiles/start.dir/main.cpp.o -c "/home/artem/workspace/sandbox (1-я копия)/main.cpp"
+CMakeFiles/start.dir/app/main.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/app/main.cpp.o: /home/artem/workspace/sandbox\ (1-я\ копия)/app/main.cpp
+CMakeFiles/start.dir/app/main.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/app/main.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/app/main.cpp.o -MF CMakeFiles/start.dir/app/main.cpp.o.d -o CMakeFiles/start.dir/app/main.cpp.o -c "/home/artem/workspace/sandbox (1-я копия)/app/main.cpp"
 
-CMakeFiles/start.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/main.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/artem/workspace/sandbox (1-я копия)/main.cpp" > CMakeFiles/start.dir/main.cpp.i
+CMakeFiles/start.dir/app/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start.dir/app/main.cpp.i"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/artem/workspace/sandbox (1-я копия)/app/main.cpp" > CMakeFiles/start.dir/app/main.cpp.i
 
-CMakeFiles/start.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/main.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/artem/workspace/sandbox (1-я копия)/main.cpp" -o CMakeFiles/start.dir/main.cpp.s
+CMakeFiles/start.dir/app/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start.dir/app/main.cpp.s"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/artem/workspace/sandbox (1-я копия)/app/main.cpp" -o CMakeFiles/start.dir/app/main.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
-"CMakeFiles/start.dir/main.cpp.o"
+"CMakeFiles/start.dir/app/main.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
-start: CMakeFiles/start.dir/main.cpp.o
+start: CMakeFiles/start.dir/app/main.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: libLIB_ORCS.a
 start: CMakeFiles/start.dir/link.txt

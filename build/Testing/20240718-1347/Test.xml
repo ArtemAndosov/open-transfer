@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20240718-1347-Experimental"
+	Name="vivo"
+	Generator="ctest-3.30.0"
+	CompilerName="/bin/c++"
+	CompilerVersion="14.1.1"
+	OSName="Linux"
+	Hostname="vivo"
+	OSRelease="6.9.8-arch1-1"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Fri, 05 Jul 2024 22:11:24 +0000"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15392"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3318.16"
+	>
+	<Testing>
+		<StartDateTime>Jul 18 18:47 +05</StartDateTime>
+		<StartTestTime>1721310455</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 18 18:47 +05</EndDateTime>
+		<EndTestTime>1721310455</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

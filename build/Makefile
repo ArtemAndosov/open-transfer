@@ -529,29 +529,29 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+app/main.o: app/main.cpp.o
+.PHONY : app/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/main.cpp.o
-.PHONY : main.cpp.o
+app/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/app/main.cpp.o
+.PHONY : app/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+app/main.i: app/main.cpp.i
+.PHONY : app/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/main.cpp.i
-.PHONY : main.cpp.i
+app/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/app/main.cpp.i
+.PHONY : app/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+app/main.s: app/main.cpp.s
+.PHONY : app/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/main.cpp.s
-.PHONY : main.cpp.s
+app/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/app/main.cpp.s
+.PHONY : app/main.cpp.s
 
 source/source_file.o: source/source_file.cpp.o
 .PHONY : source/source_file.o
@@ -665,9 +665,9 @@ help:
 	@echo "... LIB_ORCS"
 	@echo "... start"
 	@echo "... unit_test"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... app/main.o"
+	@echo "... app/main.i"
+	@echo "... app/main.s"
 	@echo "... source/source_file.o"
 	@echo "... source/source_file.i"
 	@echo "... source/source_file.s"

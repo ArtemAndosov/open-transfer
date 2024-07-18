@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/start.dir/main.cpp.o"
-  "CMakeFiles/start.dir/main.cpp.o.d"
+  "CMakeFiles/start.dir/app/main.cpp.o"
+  "CMakeFiles/start.dir/app/main.cpp.o.d"
   "start"
   "start.pdb"
 )

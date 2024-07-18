@@ -1,5 +1,4 @@
-#define CATCH_CONFIG_RUNNER
-#include <catch2/catch_test_macros.hpp>
+
 #include <chrono>
 #include <ctime>
 #include <fstream>
@@ -13,7 +12,7 @@
 
 using namespace std;
 
-int main() {
+int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
   std::cout << "hello";
   return 0;
 }

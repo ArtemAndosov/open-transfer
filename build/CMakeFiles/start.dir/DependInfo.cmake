@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/artem/workspace/sandbox (1-я копия)/main.cpp" "CMakeFiles/start.dir/main.cpp.o" "gcc" "CMakeFiles/start.dir/main.cpp.o.d"
+  "/home/artem/workspace/sandbox (1-я копия)/app/main.cpp" "CMakeFiles/start.dir/app/main.cpp.o" "gcc" "CMakeFiles/start.dir/app/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
