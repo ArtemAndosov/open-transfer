@@ -1,0 +1,1 @@
+// std::cout << std::thread::hardware_concurrency() << " concurrent threads are supported.\n";

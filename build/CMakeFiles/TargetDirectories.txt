@@ -1,0 +1,4 @@
+/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/start.dir
+/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/tests.dir
+/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/edit_cache.dir
+/home/artem/workspace/sandbox (1-я копия)/build/CMakeFiles/rebuild_cache.dir
